@@ -1,0 +1,57 @@
+@import 'src/assets/style/px2rem.scss';
+
+// .header-bar {
+//     width: 100%;
+//     height: px2rem(100);
+//     // border-bottom: px2rem(1) solid #ccc;
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
+//     box-sizing: border-box;
+//     padding: px2rem(20);
+    
+// }
+.back-header {
+    margin-right: px2rem(20);
+}
+
+.text-header {
+    width: px2rem(600);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: px2rem(35);
+}
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:430px) {
+    .header-bar {
+        width: 430px;
+        height: px2rem(100);
+        // border-bottom: px2rem(1) solid #ccc;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+        padding: px2rem(20);
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .header-bar {
+        width: 100%;
+        height: px2rem(100);
+        // border-bottom: px2rem(1) solid #ccc;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+        padding: px2rem(20);
+    }
+}
