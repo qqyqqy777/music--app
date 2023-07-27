@@ -1,14 +1,4 @@
-![optimization_open_neteasy_cloud](https://socialify.git.ci/Ignorance-of-Dong/optimization_open_neteasy_cloud/image?language=1&owner=1&stargazers=1&theme=Light)
-# 网易云音乐
-🎅❄️🎶Optimization project
 
-### react网易云音乐(H5)
-
-- [api来源](https://github.com/Binaryify/NeteaseCloudMusicApi)(感谢Binaryify不断更新的网易云音乐接口，这也将是这个项目不断拓展下去的坚实依托)
-
-- [源码地址](https://github.com/Ignorance-of-Dong/optimization_open_neteasy_cloud)
-
-- [项目预览](http://music.fishfairy.cn/)（请在chrome调试模式下使用）
 
 ### 技术栈
 
@@ -52,6 +42,3 @@
 - 环境安装：npm install or yarn
 - 启动服务：npm run dev
 - 发布代码：npm run build
-
-
-### **持续更新中...**
